@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: hng-stage0-nginx
+    env: docker
+    plan: free
+    autoDeploy: true
+    region: frankfurt
